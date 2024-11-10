@@ -1,0 +1,11 @@
+[
+  {
+    "id": 0,
+    "title": "제목",
+    "content": "내용",
+    "year": 2024,
+    "paintings": [0],
+    "exhibitions": [0],
+    "essays": [0]
+  }
+]

@@ -5,7 +5,7 @@ export default interface Painting {
   title: string;
   media: string;
   size: string;
-  year: string;
+  year: number;
   exhibitions: ExhibitionId[];
   texts: TextId[];
   essays: EssayId[];
