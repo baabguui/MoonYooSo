@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "title": "제목",
+    "media": "재료",
+    "size": "크기",
+    "year": 2024,
+    "exhibitions": [0],
+    "texts": [0],
+    "essays": [0]
+  },
+  {
+    "id": 1,
+    "title": "Untitled",
+    "media": "oil on canvas",
+    "size": "900 x 720cm",
+    "year": 2024,
+    "exhibitions": [1],
+    "texts": [1],
+    "essays": [1]
+  }
+]
