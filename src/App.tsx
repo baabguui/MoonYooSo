@@ -1,12 +1,15 @@
-import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ROUTES_LIST } from 'routes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p> 헬로 월드 </p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {ROUTES_LIST.map(({ path, Component }, idx) => (
+          <Route key={idx} path={path} element={<Component />} />
+        ))}
+      </Routes>
+    </BrowserRouter>
   );
 }
 
