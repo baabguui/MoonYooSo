@@ -1,0 +1,29 @@
+# dependencies
+/node_modules/
+
+# TypeScript 빌드 디렉토리
+/dist/
+/build/
+
+# 환경 변수 파일
+.env
+
+# OS와 IDE 관련 파일들
+.DS_Store       # macOS에서 생성되는 파일
+Thumbs.db       # Windows에서 생성되는 파일
+.vscode/         # VSCode 설정 파일
+
+# npm/yarn lock 파일
+package-lock.json  # npm을 사용하는 경우
+yarn.lock          # yarn을 사용하는 경우
+
+# TypeScript 빌드 아티팩트
+*.tsbuildinfo
+
+# 테스트 커버리지 리포트
+/coverage/
+
+# 로컬 환경 설정 파일 (예: 환경 변수 파일)
+.env.local
+.env.development.local
+.env.test.local
